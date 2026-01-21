@@ -1,0 +1,34 @@
+.txa {
+
+    text-decoration: underline;
+    text-shadow: 5px 5px 5px rgba(60, 0, 0, 0.562);
+    color:darkred;
+    text-align: left;
+
+}
+
+.b {
+
+    text-decoration: line-through;
+    color:rgb(0, 0, 112);
+    text-shadow: 5px 5px 5px rgba(0, 0, 47, 0.638);
+    text-align: left;
+
+}
+
+.c {
+    color:blueviolet;
+    text-decoration: overline;
+    text-shadow: 5px 5px 5px rgba(60, 0, 117, 0.579);
+    text-align: left;
+
+}
+
+.a {
+
+    color:deeppink;
+    text-decoration: overline underline;
+    text-shadow: 5px 5px 5px rgba(129, 0, 69, 0.626);
+    text-align: left;
+    
+}

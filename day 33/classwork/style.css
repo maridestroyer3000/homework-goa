@@ -1,0 +1,61 @@
+a:link {
+
+    color:rgb(132, 138, 231);
+    background-color: rgb(128, 42, 165);
+
+}
+
+a:visited {
+
+    color:blue;
+    background-color: aqua;
+
+}
+
+a:hover {
+
+    color:blueviolet;
+    background-color: darkmagenta;
+
+}
+
+a:active {
+
+    color:cornflowerblue;
+    background-color: deepskyblue;
+
+}
+
+.ay {
+
+    text-align: center;
+
+}
+
+body {
+
+    background-color: lightblue;
+
+}
+
+#yo {
+
+    text-align: center;
+
+}
+
+.zomb {
+
+    text-align: center;
+
+}
+
+h1 {
+
+    font-family: 'Georgia', serif;
+    color:darkmagenta;
+    background-color: rgb(105, 108, 255);
+    text-decoration: underline;
+
+}
+

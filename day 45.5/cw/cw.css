@@ -1,0 +1,116 @@
+*{
+
+    margin: 0;
+    padding: 0;
+
+}
+
+#container {
+
+    background-color: rgba(0, 0, 0, 0.542);
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+#child {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#one {
+
+    display: flex;
+    position: fixed;
+    width: 200px;
+    height: 300px;
+    top: 200px;
+    left: 80px;
+    flex-direction: column;
+
+
+}
+
+#two {
+
+    display: flex;
+    position: fixed;
+    width: 200px;
+    height: 300px;
+    top: 200px;
+    right: 400px;
+    flex-direction: column;
+
+
+}
+
+#three {
+
+    display: flex;
+    position: fixed;
+    width: 200px;
+    height: 300px;
+    top: 200px;
+    right: 680px;
+    flex-direction: column;
+
+
+}
+
+#four {
+
+    display: flex;
+    position: fixed;
+    width: 200px;
+    height: 300px;
+    top: 200px;
+    left: 200px;
+    flex-direction: column;
+    top: 200px;
+    left: 350px;
+
+}
+
+.sale {
+
+    display: flex;
+    text-decoration: line-through;
+    color: red;
+    display: flex;
+}
+
+p {
+
+    display: flex;
+    color: rgb(255, 255, 255);
+    flex-direction: column;
+}
+
+
+.new {
+
+    background-color: red;
+
+}
+
+.sal {
+
+    background-color: black;
+    color: white;
+}
+
+.so {
+
+    display: flex;
+    flex-direction: column;
+    width: 50px;
+    height: 50px;
+    gap: 10px;
+    text-align: center;
+    color:white;
+    position: absolute;
+    
+}

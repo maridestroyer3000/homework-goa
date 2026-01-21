@@ -1,0 +1,29 @@
+#tm {
+
+      list-style-position: lower-latin square inside; 
+      font-size: 18px;
+      line-height: 1.6;
+      width: 7px solid rgba(64, 0, 98, 0.601);
+      height: 4px solid rgb(4, 43, 197);
+      border: 4px solid rgb(30, 25, 92);
+
+    }
+
+body {
+
+    background-color: rgb(159, 145, 255);
+    text-align: center;
+    text-shadow: 5px 5px 5px rgba(13, 0, 96, 0.558);
+
+}
+
+#nn {
+
+    list-style-position: times, italic, outside;
+      font-size: 18px;
+      line-height: 1.6;
+      width: 7px solid rgba(64, 0, 98, 0.601);
+      height: 4px solid rgb(4, 43, 197);
+      border: 4px solid rgb(30, 25, 92);
+    
+}

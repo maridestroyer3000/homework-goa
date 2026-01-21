@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+#container {
+    background-color: #36384D;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#main {
+    width: 850px;
+    height: 550px;
+    max-width: 100%;
+    background-color: white;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+#inner {
+    width: 100%;
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+
+#info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+    width: 50%;
+    gap: 25px;
+}
+
+h1 {
+    font-size: 45px;
+    color: #24253A;
+}
+
+p {
+    font-size: 16px;
+    color: #24253A;
+}
+
+#list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+span {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    color: #24253A;
+}
+
+label{
+    font-size: 10px;
+    font-weight: bold;
+    color: #24253A;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input{
+    height: 50px;
+    border-radius: 8px;
+    border: 1px solid #B0B0B0;
+    outline: none;
+    padding-left: 20px;
+}
+
+button{
+    border:none;
+    height: 50px;
+    color: white;
+    background-color: #232742;
+    border-radius: 8px;
+}
+
+#image {
+    width: 50%;
+    height: 100%;
+    background-image: url("./assets/images/illustration-sign-up-desktop.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 15px;
+}
+
+@media (max-width: 768px){
+    #container{
+        padding: 0;
+        align-items: stretch;
+}
+
+    #main {
+        width: 100%;
+        border-radius: 0;
+        padding: 0;
+    }
+
+    #inner {
+        flex-direction: column-reverse;
+        gap: 0;
+    }
+
+    #image {
+        width: 100%;
+        min-height: 280px;
+        background-image: url("./assets/images/illustration-sign-up-mobile.svg");
+        background-size: cover;
+        background-position: center;
+        border-radius: 0;
+    }
+
+    #info {
+        width: 100%;
+        padding: 24px;
+        gap: 18px;
+    }
+
+    h1{
+        font-size: 32px;
+    }
+}

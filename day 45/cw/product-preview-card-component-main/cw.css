@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+
+    margin: 0;
+    padding: 0;
+
+}
+
+#container {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F3EAE3;
+    height: 100vh;
+
+}
+
+#parent {
+
+    background-color: #FFFFFF;
+    gap: 15px;
+    border-radius: 15px;
+    width: 640px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+        box-shadow: 0px 0px 5px#8b8b8b51;
+
+}
+
+#t {
+
+    font-family: Montseratt, italic;
+    color: #8F9098;
+    font-size: 15px;
+    font-weight: 500;
+
+}
+
+#h {
+
+    font-family: Montseratt, italic;
+    color: #96979C;
+    font-size: 17px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    font-weight: 599;
+
+}
+
+#perf {
+
+    width: 330px;
+    height:500px;
+    background-color: white;
+    border-radius: 15px 0px 0px 15px;
+
+}
+
+#child {
+
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-between;
+    padding-left: 15px;
+
+}
+
+h1 {
+
+    font-family: Fraunces, italic;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    color: #1E222C;
+
+}
+
+#child2 {
+
+    font-family: Fraunces, italic;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-bottom: 5px;
+
+
+}
+
+h2 {
+
+    color: #368166;
+
+}
+
+#s {
+
+    color:#A9A9AA;
+    text-decoration: line-through;
+
+}
+
+#child3 {
+
+    background-color: #3D8168;
+    border: none;
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    flex-direction: row;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+
+
+}
+
+button {
+
+    background-color: #3D8168;
+    border: none;
+    font-family: Montseratt, italic;
+    text-align: center;
+    font-size: 17px ;
+    color: white;
+    margin-bottom: 2px;
+    font-weight: 599;
+
+}
+
+#cart {
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    padding-left: 55px;
+    padding-top: 15px;
+
+}

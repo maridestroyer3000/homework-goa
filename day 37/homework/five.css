@@ -1,0 +1,55 @@
+#a {
+
+    background-color: rgb(74, 39, 30);
+    padding: 20px 15px 10px 5px;
+    margin: 10px 25px 20px 25px;
+    border: 50px solid rgb(255, 162, 0);
+    color:rgb(13, 94, 13);
+
+}
+
+#b {
+
+    background-color: rgb(255, 149, 0);
+    padding: 50px 65px 75px 85px;
+    margin: 75px 80px 75px 80px;
+    border: 90px solid rgb(0, 78, 27);
+    color: rgb(70, 41, 30);
+
+}
+
+#c {
+
+    background-color: rgb(118, 84, 74);
+    padding: 100px 200px 150px 200px;
+    margin: 100px 100px 150px 150px;
+    border: 50px solid rgb(33, 26, 13);
+    color:rgb(255, 255, 255);
+
+}
+
+#d {
+
+    background-color: rgb(58, 89, 54);
+    padding: 90px 80px 75px 100px;
+    margin: 150px 200px 100px 250px;
+    border: 80px solid rgb(23, 43, 27);
+    color: rgb(0, 11, 69);
+
+}
+
+#e {
+
+    background-color: rgb(255, 230, 130);
+    padding: 150px 200px 250px 200px;
+    margin: 100px 200px 100px 200px;
+    border: 100px solid rgb(72, 59, 38);
+    color: rgb(75, 40, 38);
+
+}
+
+body {
+
+    background-color: rgb(43, 32, 28);
+
+}

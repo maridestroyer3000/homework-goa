@@ -1,0 +1,53 @@
+body {
+
+    background-color: rgb(36, 36, 36);
+    text-align: center;
+
+}
+
+img {
+    
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+}
+
+button {
+    
+    width:300px;
+    height: 50px;
+    background-color: hsl(0, 0%, 20%);
+    border:none;
+    border-radius:10px;
+    color: white;
+    flex-direction: column;
+    margin: 2px;
+
+}
+
+.country {
+    
+    color: rgb(200, 255, 0);
+    font-size: 17px;
+
+}
+
+h1 {
+
+    color:white;
+    font-size: 30px;
+
+}
+
+.text {
+
+    color: white;
+
+}
+
+.one {
+
+    background-color:rgb(24, 24, 24);
+
+}

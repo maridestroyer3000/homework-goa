@@ -1,0 +1,36 @@
+#sob {
+
+    text-align: center;
+    text-decoration: dashed yellowgreen;
+    background-color: darkslategray;
+    color:darkcyan
+
+}
+
+#off {
+
+    text-align: right;
+    text-decoration: dotted greenyellow;
+    background-color: darkolivegreen;
+    color:darkgray;
+
+}
+
+.a p {
+
+    text-transform: uppercase;
+
+}
+
+.b p {
+
+    text-transform: lowercase;
+
+
+}
+
+body {
+
+    background-color: cadetblue;
+    
+}

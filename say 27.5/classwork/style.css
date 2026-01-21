@@ -1,0 +1,55 @@
+body {
+
+    color:darkcyan;
+    background-color: aqua;
+
+}
+
+p {
+
+    color:blueviolet;
+    background-color: cornflowerblue;
+    border: solid 4px blueviolet;
+}
+
+img {
+
+    color:darkorchid;
+    background-color: darkblue;
+
+}
+
+button {
+
+    color:darkslateblue;
+    background-color: fuchsia;
+
+}
+
+.tecknet {
+
+    color:blue;
+    background-color: blueviolet;
+
+}
+
+.custom {
+
+    color:cyan;
+    background-color: darkblue;
+
+}
+
+.keychron {
+
+    color:blue;
+    background-color: darkblue;
+
+}
+
+.sea {
+
+    color:darkmagenta;
+    background-color: blueviolet
+
+}

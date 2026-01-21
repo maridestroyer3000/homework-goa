@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>document</title>
+<head>
+    <title>სარეგისტრაციო ფორმა</title>
+<body>
+    <h2>სარეგისრტრაციო ფორმა</h2>
+    <form action="#" method="post">
+    <!--მომხმარებელი შეიყვანს საკუთარ სახელს--> 
+    <label for="firstname">სახელი:</label>   
+    <input type="text" id="fisrtname" name="firstname" required>
+    <!-- მომხმარებელი შევა საკუთარ გვარს -->
+    <label for="lastname">გვარი:</label>
+    <input type="text" id="lastname" name="lastname" required>
+    <br><br>
+
+    <!-- ქვეყნების ჩამოსაშლელი მენიუ -->
+    <label for="country">აირჩიეთ ქვეყანა:</label>
+    <select id="country" name="country" required>
+      <option value="">-- აირჩიეთ --</option>
+      <option value="georgia">საქართველო</option>
+      <option value="germany">გერმანია</option>
+      <option value="usa">აშშ</option>
+      <option value="france">საფრანგეთი</option>
+    </select>
+    <br><br>
+
+    <!-- დადასტურების ღილაკი -->
+    <input type="submit" value="დადასტურება">
+    
+    <!--
+      name ატრიბუტები ("firstname", "lastname", "country") საჭიროა მონაცემების სწორად გადასაცემად სერვერზე.
+      როცა ფორმა გაიგზავნება, ეს სახელები გამოიყენება მონაცემების ამოსაცნობად ბაზაში ან დამუშავებაში.
+    -->
+    
+  </form>
+
+</body>
+
+</head>
