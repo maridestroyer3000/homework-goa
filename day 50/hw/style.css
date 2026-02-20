@@ -1,0 +1,18 @@
+#parent {
+    background-color: aliceblue;
+    width: 800px;
+    height: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+#parent div{
+    background-color: rgb(255, 255, 255);
+    border: 3px solid #2B8BFB;
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 23px;
+}
