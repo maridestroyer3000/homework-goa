@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.grid-container {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px;
+    gap: 1em;
+    grid-template-areas: 
+    "box-1 box-1 box-2"
+    "box-3 box-3 box-4 box-4";
+    border-radius: 100px;
+}
+
+.child {
+    background-color: blue;
+    padding: 2em;
+    color:white;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 1.5rem;
+}
+
+#green {
+    background-color: greenyellow;
+}
+
+#purple {
+    background-color: purple;
+}
+
+#orang {
+    background-color: orange;
+}
+
+#orange {
+    background-color: orange;
+}
+
